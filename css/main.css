@@ -219,7 +219,7 @@ main {
     color: #000; 
   } */
 
-  /* ...................................................start.............................................. */
+  /* ...................................................start(CONTACT PAGE IMPORT).............................................. */
 
   *{
     padding: 0;
@@ -503,7 +503,42 @@ textarea::-webkit-scrollbar-thumb{
     }
 }
 
-  /* ...................................................stop.............................................. */
+  /* ...................................................END.............................................. */
+
+/* ....................education & certification ........................*/
+
+.education{
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 0 auto;
+  gap: 50px;
+  margin-top: 100px;
+  padding: 0.5rem;
+  border: 2px dotted #eece1a;
+}
+
+.education ul{
+  list-style: none;
+}
+
+.education ul li a{
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.education ul li{
+  padding: 0.3rem;
+}
+
+.education ul li a:hover{
+  text-decoration: underline;
+  color: #eece1a;
+}
+
+
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -536,9 +571,15 @@ textarea::-webkit-scrollbar-thumb{
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (min-width: 769px) and (max-width: 1170px) {
+@media screen and (min-width: 769px) and (max-width: 1170px) 
+  {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .education h2 {
+    margin-right: 20px;
+    margin-left: 50px;
+  } 
+}
 
 @media screen and (max-width: 768px) {
   main {
@@ -570,7 +611,15 @@ textarea::-webkit-scrollbar-thumb{
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+    .education{
+      flex-wrap: wrap;
+    } 
+    .education h2{
+      margin-top: 20px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -581,4 +630,18 @@ textarea::-webkit-scrollbar-thumb{
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .education{
+    flex-wrap: wrap;
+  } 
+  .education h2{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .education ul li{
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
