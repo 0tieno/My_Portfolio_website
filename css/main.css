@@ -514,10 +514,15 @@ textarea::-webkit-scrollbar-thumb{
   justify-content: center;
   text-align: left;
   margin: 0 auto;
-  gap: 50px;
+  gap: 40px;
   margin-top: 100px;
   padding: 0.5rem;
   border: 2px dotted #eece1a;
+}
+
+.education h2{
+  /* margin-left: 5px; */
+  margin-right: 30px;
 }
 
 .education ul{
@@ -531,6 +536,11 @@ textarea::-webkit-scrollbar-thumb{
 
 .education ul li{
   padding: 0.3rem;
+}
+
+.education ul li i{
+  margin-right: 5px;
+  /* margin-left: 5px; */
 }
 
 .education ul li a:hover{
@@ -576,8 +586,8 @@ textarea::-webkit-scrollbar-thumb{
   .projects {
     grid-template-columns: repeat(3, 1fr); }
   .education h2 {
-    margin-right: 20px;
-    margin-left: 50px;
+    /* margin-right: 20px; */
+    margin-left: 20px;
   } 
 }
 
