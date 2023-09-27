@@ -751,3 +751,16 @@ textarea::-webkit-scrollbar-thumb{
   background-color: #000;
 }
 
+
+.nav-bar .logo{
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 7px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
