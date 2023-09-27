@@ -655,3 +655,60 @@ textarea::-webkit-scrollbar-thumb{
   }
 }
 
+
+
+
+/* HERO SECTION */
+
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20vh;
+}
+
+.hero-image{
+  width: 150px;
+  height: 150px;
+
+}
+
+.hero-image img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.hero-text{
+  text-align: center;
+}
+
+.hero-text p{
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.hero-text .name{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero-text h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.social-icons{
+  margin-top: 20px;
+}
+
+.social-icons a{
+  color: #fff;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.social-icons a:hover{
+  color: gold;
+}
+
