@@ -712,3 +712,42 @@ textarea::-webkit-scrollbar-thumb{
   color: gold;
 }
 
+
+/* buttons */
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn{
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn--empty{
+  color: #fff;
+  background-color: #333;
+}
+
+.btn--empty:hover{
+  color: #333;
+  background-color: #fff;
+}
+
+.btn--full{
+  color: #333;
+  background-color: #fff;
+}
+.btn--full:hover{
+  color: #fff;
+  background-color: #000;
+}
+
