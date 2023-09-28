@@ -1,0 +1,35 @@
+  /* ...................................................start(CONTACT PAGE IMPORT).............................................. */
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #444;
+    color: #fff;
+}
+
+
+@media (max-width: 1100px) {
+    .messageForm .halfWidth{
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .container .row{
+        flex-wrap: wrap;    
+    }
+
+    .row section .left, .row section .right{
+        flex-basis: 100%;
+        margin: 0;
+    }
+}
+
+  /* ...................................................END.............................................. */
