@@ -645,14 +645,20 @@ textarea::-webkit-scrollbar-thumb{
   div.menu-branding {
     float: none;
     width: 100%;
-    min-height: 0; }
+    min-height: 0; 
+  }
     ul.menu-nav.show,
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
-    font-size: 24px; }
+    font-size: 24px; 
+  }
+  .menu .nav-link {
+    font-size: 1.7rem;
+  }
+
   .menu-branding {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
