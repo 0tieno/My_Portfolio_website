@@ -310,6 +310,12 @@ img{
       margin-bottom: 0;
       padding-bottom: 0;
     } 
+
+    .hero-image {
+      width: 200px;
+      height: 200px;
+    }
+  
   }
 
 
@@ -325,6 +331,11 @@ img{
 
       max-height: 100vh;
       overflow: hidden;
+  }
+
+  .hero-image {
+    width: 200px;
+    height: 200px;
   }
 
   .btns{
