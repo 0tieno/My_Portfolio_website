@@ -263,6 +263,7 @@ body{
     min-height: 100vh;
     background-color: #444;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .container{
