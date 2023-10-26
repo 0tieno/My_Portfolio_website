@@ -534,6 +534,12 @@ textarea::-webkit-scrollbar-thumb{
     }
 }
 
+@media (max-width: 480px){
+  body, html{
+    overflow-x: hidden;
+  }
+}
+
   /* ...................................................END.............................................. */
 
 /* ....................education & certification ........................*/
@@ -610,7 +616,9 @@ textarea::-webkit-scrollbar-thumb{
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); 
+  } 
+}
 
 @media screen and (min-width: 769px) and (max-width: 1170px) 
   {
@@ -655,24 +663,32 @@ textarea::-webkit-scrollbar-thumb{
     height: 25vh;
     transform: translate3d(100%, 0, 0); 
   }
+
     .menu-branding .portrait {
       background: url("../img/profile-smalll.jpg");
       width: 160px;
       height: 160px; 
     }
+
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr; 
+  }
+
   .projects {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+   }
+
     .education{
       flex-wrap: wrap;
     } 
+
     .education h2{
       margin-top: 20px;
       margin-bottom: 0;
       padding-bottom: 0;
-    } }
+    } 
+  }
 
 @media screen and (max-width: 500px) {
   main {
