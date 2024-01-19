@@ -11,6 +11,10 @@ html, body{
     background-color: #eee;
 }
 
+a{
+  text-decoration: none;
+}
+
 img{
     width: 100%;
 }
