@@ -37,7 +37,7 @@ function toggleMenu() {
 
 
 // An array containing different roles.
-const roles = ["Ambassador @ Microsoft", "Software Developer | DevOps | Cloud Engineer"];
+const roles = ["Ambassador @ Microsoft", "Software | DevOps | Cloud Engineer"];
 
 // Get the element with the class 'typing-text' from the HTML.
 const typingText = document.querySelector('.typing-text');
