@@ -248,7 +248,8 @@ main#home h1 {
 body {
   width: 100%;
   min-height: 100vh;
-  background-color: #444;
+  /* background-color: #444; */
+  background-color: rgba(29, 30, 36, 0.9);
   color: #fff;
   overflow-x: hidden;
 }
