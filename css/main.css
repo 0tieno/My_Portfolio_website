@@ -248,9 +248,9 @@ main#home h1 {
 body {
   width: 100%;
   min-height: 100vh;
-  /* background-color: #444; */
-  background-color: rgba(29, 30, 36, 0.9);
-  color: #fff;
+  /* background-color: #1e1e1e; */
+  background-color: #1d1e24;
+  color: rgb(224, 226, 233);
   overflow-x: hidden;
 }
 
