@@ -90,7 +90,7 @@
 .menu .nav-link {
   display: inline-block;
   position: relative;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
@@ -138,12 +138,12 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400;
+  font-weight: 300;
 }
 h1.lg-heading,
 h2.lg-heading,
 h3.lg-heading {
-  font-size: 6rem;
+  font-size: 3rem;
 }
 h1.sm-heading,
 h2.sm-heading,
@@ -203,7 +203,7 @@ main#home h1 {
 }
 .about-info .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .about-info .job-1 {
   grid-area: job1;
