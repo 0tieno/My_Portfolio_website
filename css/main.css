@@ -215,7 +215,8 @@ main#home h1 {
   grid-area: job3;
 }
 .about-info .job {
-  background: #515151;
+  /* background: #515151; */
+  background: rgba(73, 73, 73, 0.4);
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
 }
